@@ -1,0 +1,106 @@
+# vim: ft=colortemplate
+
+# Information {{{
+# Mandatory
+Full name:     Rustify
+Short name:    rustify
+Author:        dcampos
+License:       MIT
+
+Variant:    gui
+Background: dark
+Neovim:     yes
+
+# Palette
+
+Color: black   #2a2a2a ~
+Color: blue    #769acb ~
+Color: cyan    #3e999f ~
+Color: magenta #ab8ac1 ~
+Color: green1  #83a300 ~
+Color: green2  #8ca375 ~
+Color: green3  #293c25 ~
+Color: grey1   #cccccc ~
+Color: grey2   #8d8d8b ~
+Color: grey3   #555555 ~
+Color: grey4   #353535 ~
+Color: red     #ee6868 ~
+Color: red2    #492d2d ~
+Color: white   #dddddd ~
+Color: yellow  #d29923 ~
+Color: yellow2 #393922 ~
+Color: orange1 #d97f26 ~
+Color: orange2 #ff9011 ~
+
+# Term colors
+
+Term Colors: black red     green1 orange1
+Term Colors: blue  magenta cyan   white
+Term Colors: grey4 red     green2 yellow
+Term Colors: blue  magenta cyan   white
+
+# Groups
+
+Normal       white   black
+NonText      grey3   none
+Special      green2  none
+Keyword      magenta none
+Comment      grey2   none
+Type         blue    none
+Constant     red     none
+String       green1  none
+Special      green2  none
+PreProc      cyan    none
+Identifier   red     none
+Statement    yellow  none
+LineNr       grey2   grey4
+SignColumn   none    grey4
+CursorLineNr grey2   grey4 bold
+CursorLine   none    grey4
+CursorColumn none    grey4
+ColorColumn  none    grey3
+StatusLine   black   grey2
+StatusLineNC grey1   grey3
+VertSplit    none    grey3
+TabLine      white   grey3
+TabLineSel   black   grey1 bold
+
+Function -> Type
+
+Error      black  red
+ErrorMsg   black  red
+WarningMsg black  yellow
+Question   green2 none bold
+Todo       grey2  none bold
+
+MatchParen black orange2
+
+Visual     none  grey3
+Search     none  grey3
+IncSearch  black yellow
+Pmenu      black grey1
+PmenuSel   black blue
+PmenuSbar  none  grey2
+PmenuThumb none  grey3
+
+NormalFloat white grey4
+
+SpellBad none none undercurl guisp=red
+SpellCap none none undercurl guisp=yellow
+
+DiffAdd    green1 green3
+DiffChange yellow yellow2
+DiffDelete red    red2
+DiffText   yellow yellow2 bold
+
+diffAdded   green1 none
+diffChanged yellow none
+diffRemoved red    none
+
+Folded     grey2 grey3 bold
+FoldColumn grey2 grey3 bold
+
+ALEErrorSign   red    grey4
+ALEWarningSign yellow grey4
+
+Directory -> Special
