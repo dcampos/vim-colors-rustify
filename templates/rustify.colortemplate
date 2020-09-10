@@ -20,10 +20,11 @@ Color: magenta #ab8ac1 ~
 Color: green1  #83a300 ~
 Color: green2  #8ca375 ~
 Color: green3  #293c25 ~
-Color: grey1   #cccccc ~
+Color: grey1   #b7b7b7 ~
 Color: grey2   #8d8d8b ~
 Color: grey3   #555555 ~
 Color: grey4   #353535 ~
+Color: grey5   #404040 ~
 Color: red     #ee6868 ~
 Color: red2    #492d2d ~
 Color: white   #dddddd ~
@@ -59,31 +60,33 @@ CursorLineNr grey2   grey4 bold
 CursorLine   none    grey4
 CursorColumn none    grey4
 ColorColumn  none    grey3
-StatusLine   black   grey2
-StatusLineNC grey1   grey3
+StatusLine   black   grey1
+StatusLineNC white   grey3
 VertSplit    none    grey3
 TabLine      white   grey3
 TabLineSel   black   grey1 bold
 
 Function -> Type
 
-Error      black  red
-ErrorMsg   black  red
-WarningMsg black  yellow
-Question   green2 none bold
-Todo       grey2  none bold
+Error      black   red
+ErrorMsg   black   red
+WarningMsg black   yellow
+Question   green2  none bold
+Todo       grey2   none bold
+Title      magenta none bold
 
 MatchParen black orange2
 
 Visual     none  grey3
 Search     none  grey3
+QuickFixLine black blue
 IncSearch  black yellow
-Pmenu      black grey1
+Pmenu      white grey3
 PmenuSel   black blue
-PmenuSbar  none  grey2
-PmenuThumb none  grey3
+PmenuSbar  none  grey3
+PmenuThumb none  grey2
 
-NormalFloat white grey4
+NormalFloat white grey5
 
 SpellBad none none undercurl guisp=red
 SpellCap none none undercurl guisp=yellow
